@@ -79,8 +79,8 @@ int main()
         cout<<"Ingrese el segundo numero: "<<endl;
         cin>>n2;
         
-        bitset<4> x(n1);
-        bitset<4> y(n2);
+        bitset<11> x(n1);
+        bitset<11> y(n2);
 
         cout<<"\nOperacion ingresada: "<<x<<" * "<<y<<"  ("<<size(x)<<"-bit)"<<endl;
 
